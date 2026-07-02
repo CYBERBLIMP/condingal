@@ -1,30 +1,70 @@
-<!DOCTYPE HTML>
-<html>
-    <HTML LANG="en">
-        <HEAD>
-            <TITLE>MY COLOR CARD</TITLE><TITLE>
-                <STYLE>
-                    /* univeral selectors */
-                    body {background-color:teal;}
-                    h1 {color:rgb(95, 126, 160)}
-                    h2 {color:silver;}
-                    p {color:turquoise}
+<!DOCTYPE html>
+<html lang="en">
 
-                    /* class selector */
-                    .my-detail{
-                        color: gold;
-                        font-weight: bold;
-                    }
-                    /* id selector */
-                    #my-detail{
-                        color: red;
-                        font-weight: bold;
-                    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colour Card</title>
 
-                </STYLE>
-        </HEAD>
-        <body>
-            <h1>my colour card</h1>
-            <p style
-        </body>
+    <style>
+        /* Universal Selector - applies to everything on the page */
+        * {
+            font-size: 16px;
+        }
+
+        /* Element Selectors */
+        body {
+            background-color: lightgray;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        p {
+            color: dimgray;
+        }
+
+        /* Class Selector */
+        .my-detail {
+            color: darkgreen;
+            font-weight: bold;
+        }
+
+        /* ID Selector */
+        #my-card {
+            background-color: lightcyan;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>My Colour Card</h1>
+
+    <!-- Inline CSS: Add style="color: ____;" inside this p tag -->
+    <p style="color: crimson;">Hi! This is my very own webpage.</p>
+
+    <div id="my-card">
+
+        <h2>About Me</h2>
+        <p class="my-detail">My name is Sam.</p>
+        <p class="my-detail">My favourite colour is red.</p>
+        <p class="my-detail">My favourite subject is Maths.</p>
+        <p class="my-detail">My favourite food is pasta.</p>
+
+    </div>
+
+    <h2>My Favourite Things</h2>
+    <p>My favourite animal is a cat.</p>
+    <p>My favourite sport is cricket.</p>
+    <p>My favourite movie is The Lion King.</p>
+
+</body>
+
 </html>
