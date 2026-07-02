@@ -1,0 +1,13 @@
+body {
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom, teal, darkblue);
+    background-reapeat: no-repeat;
+    background-posistion: top center;
+    font-family:Arial, sans-serif;
+
+}
+
+.page-header {
+    background-image:linear-gradient(to right, rgb(109, 23, 17), silver);
+    /*background-image: url("sunrise2.jpg");*/
+    border-radius:
