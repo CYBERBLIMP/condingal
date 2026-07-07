@@ -1,13 +1,42 @@
-body {
-    background-color: darkblue;
-    background-image: linear-gradient(to bottom, teal, darkblue);
-    background-reapeat: no-repeat;
-    background-posistion: top center;
-    font-family:Arial, sans-serif;
-
-}
-
-.page-header {
-    background-image:linear-gradient(to right, rgb(109, 23, 17), silver);
-    /*background-image: url("sunrise2.jpg");*/
-    border-radius:
+    body {
+      background-color: darkblue;
+      background-image: linear-gradient(to bottom, darkblue, navy);
+      background-repeat: no-repeat;
+      background-position: top center;
+      font-family: Arial, sans-serif;
+    }
+ 
+    .page-header {
+      background-image: linear-gradient(to right, purple, coral);
+      border-radius: 16px;
+      text-align: center;
+      color: white;
+    }
+ 
+    .fact-card {
+      background-color: midnightblue;
+      border-radius: 12px;
+      color: white;
+    }
+ 
+    .fact-card h2 {
+      color: coral;
+    }
+ 
+    .star {
+      width: 60px;
+      height: 60px;
+      background-color: yellow;
+      border-radius: 50%;
+      animation: twinkle 2s infinite alternate;
+    }
+ 
+    @keyframes twinkle {
+      from { background-color: rgba(122, 122, 9, 0.956); }
+      to   { background-color: rgb(20, 155, 173); }
+    }
+ 
+    .footer-text {
+      text-align: center;
+      color: coral;
+    }
