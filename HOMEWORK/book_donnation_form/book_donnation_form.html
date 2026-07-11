@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Book Donation Form</title>
+</head>
+
+<body>
+
+    <h1>📚 Book Donation Form</h1>
+    <p>Fill in the form below to donate books to the library!</p>
+    <hr>
+
+    <form>
+
+        <fieldset>
+            <legend>Donor Details</legend>
+
+            <label>Your Name</label><br>
+            <input type="text" id="name" placeholder="Enter your full name"><br><br>
+
+            <label>Donor ID</label><br>
+            <input type="password" id="donor-id" placeholder="Enter your donor ID"><br><br>
+
+            <label>Donation Date</label><br>
+            <input type="date" id="donation-date"><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Book Details</legend>
+
+            <label>Choose Book Category</label><br>
+            <select id="category">
+                <option value="">-- Select a category --</option>
+                <option value="fiction">Fiction</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="education">Education</option>
+            </select><br><br>
+
+            <label>Book Condition</label><br>
+            <input type="radio" name="condition" value="new"> Like New<br>
+            <input type="radio" name="condition" value="good"> Good<br>
+            <input type="radio" name="condition" value="used"> Used<br><br>
+
+            <label>Book Title or Additional Notes</label><br>
+            <textarea id="notes" rows="3" cols="35"
+                placeholder="e.g. The book title, author name, or any notes."></textarea><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferred Drop-Off Day</legend>
+
+            <input type="checkbox" value="mon"> Monday<br>
+            <input type="checkbox" value="wed"> Wednesday<br>
+            <input type="checkbox" value="fri"> Friday<br>
+
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Donate My Book">
+
+    </form>
+
+</body>
+
+</html>
