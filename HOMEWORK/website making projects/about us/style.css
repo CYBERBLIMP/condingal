@@ -1,6 +1,6 @@
 body {
 
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #0673a2 100%);
 
     font-family: 'Roboto Slab', serif;
 
@@ -10,7 +10,7 @@ body {
 
 .about {
 
-    background-color: rgba(84, 4, 4, 0.459);
+    background-color: rgba(74, 65, 4, 0.985);
 
     border-radius: 15px;
 
@@ -48,7 +48,7 @@ body {
 
 .btn-outline-warning:hover {
 
-    background-color: #022d3d;
+    background-color: #6e0656;
 
     transform: scale(1.05);
 

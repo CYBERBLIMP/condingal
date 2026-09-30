@@ -1,0 +1,55 @@
+body {
+
+    background: linear-gradient(135deg, #667eea 0%, #0673a2 100%);
+
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+
+.about {
+
+    background-color: rgba(74, 65, 4, 0.985);
+
+    border-radius: 15px;
+
+    margin-top: 50px;
+
+}
+
+
+
+.m-heading {
+
+    font-size: 2.5rem;
+
+    font-weight: 700;
+
+    margin: 20px 0;
+
+}
+
+
+
+.btn-outline-warning {
+
+    border-width: 2px;
+
+    font-weight: 600;
+
+    padding: 10px 30px;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+.btn-outline-warning:hover {
+
+    background-color: #6e0656;
+
+    transform: scale(1.05);
+
+}
