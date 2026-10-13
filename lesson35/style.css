@@ -6,7 +6,7 @@ body {
 #container {
     width: 1000px;
     height: 550px;
-    background-image: linear-gradient(rgba(89, 35, 10, 0.83), rgba(0, 0, 0, 0.3)), url(images.jpg);
+    background-image: linear-gradient(rgba(11, 130, 124, 0.83), rgba(19, 96, 102, 0.755)), url(images.jpg);
     margin: 20px auto;
 }
 
